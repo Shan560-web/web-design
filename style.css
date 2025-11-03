@@ -39,7 +39,7 @@ section {
 .banner {
   position: relative;
   text-align: center;
-  background: url("banner.jpg") center/cover;
+  background: url("\banner.jpg") center/cover;
   color:	#FFD300;
   padding: 120px 20px;
   border-radius: 0.5;
@@ -223,4 +223,5 @@ footer {
   padding: 15px;
   margin-top: 20px;
 }
+
 
