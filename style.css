@@ -1,0 +1,227 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #2b2a2a;
+  color: #333;
+}
+
+header {
+  background: #1e1e1e;
+  border-bottom: 3px solid #e74c3c;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover, nav a.active {
+  text-decoration: underline;
+}
+
+img{
+	border-radius:10px;
+}
+
+section {
+  padding: 40px;
+  background: #fff;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* --- Hero Banner --- */
+.banner {
+  position: relative;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+              url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1360&q=80')
+              center/cover no-repeat;
+  color: white;
+  padding: 140px 20px;
+  border-radius: 0.5;
+}
+
+.banner-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.banner h2 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+.banner .btn {
+  background: #e74c3c;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.banner .btn:hover {
+  background: #c0392b;
+}
+
+/* --- Category Section --- */
+.categories {
+  text-align: center;
+  padding: 60px 20px;
+  background: #262525;
+  border-radius: 10px;
+  box-shadow:0 3px 6px rgba(0,0,0,0.5);
+  margin: 20px;
+}
+
+.categories h3 {
+  font-size: 1.8rem;
+  color: #ff6b6b;
+  margin-bottom: 30px;
+}
+
+h3{
+	color:#ff6b6b;
+	font-size:20px;
+	margin-left:5%;
+}
+
+.categories .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.categories .card {
+  background: #fff3f0;
+  width: 220px;
+  padding: 25px 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  background:#262525;
+}
+
+.categories .card:hover {
+  transform: translateY(-5px);
+  background: gray;
+}
+
+.categories .card h4 {
+  margin-top: 10px;
+  color: #e74c3c;
+}
+
+.categories .card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 8px;
+  color:#ff6b6b;
+}
+
+.quick-book{
+	background:#262525;
+	box-shadow:0 3px 6px rgba(0,0,0,0.5);
+}
+
+.quick-book form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+input, select, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c0392b;
+}
+
+.top-picks{
+	background:#262525;
+	box-shadow:0 3px 6px rgba(0,0,0,0.5);
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  color:#ff6b6b;
+  background: #262525;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  width: 200px;
+  text-align: center;
+  transition:0.1s;
+}
+
+.card:hover{
+	transform:translateY(-5px);
+	background:gray;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.event {
+  width: 300px;
+  background: #fff3f0;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.event img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.reviews{
+	background:#262525;
+	font-size:18px;
+	text-align:center;
+	color:white;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
